@@ -1,0 +1,96 @@
+# --------------------------------------------------------
+# 🧠 Python & AI Project .gitignore
+# For: MTP Vagueness Detection System (Agentic LLM + RAG)
+# --------------------------------------------------------
+
+# === Virtual Environments ===
+venv/
+env/
+myenv/
+.venv/
+env.bak/
+
+# === Python Caches ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === IDE & Editor Files ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs & Temp Files ===
+logs/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === Environment & Secrets ===
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+config.yaml
+
+# === Jupyter / Colab ===
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# === Build / Packaging ===
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Streamlit Cache ===
+.streamlit/
+.streamlit_cache/
+cache/
+__cache__/
+
+# === Data & Models ===
+data/raw_docs/
+data/reference_docs/
+data/embeddings/
+outputs/reports/
+outputs/*.json
+outputs/*.csv
+
+# === Vector DB / Embeddings ===
+*.faiss
+*.chroma
+*.pkl
+*.bin
+*.npy
+
+# === Temporary Analysis Files ===
+notebooks/
+tmp/
+scratch/
+experiments/
+
+# === OS & Misc ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# === Backup or Exported Files ===
+*.bak
+*.old
+*.orig
+
+# === Dependency Lock Files (optional) ===
+Pipfile.lock
+poetry.lock
